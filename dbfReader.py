@@ -14,7 +14,7 @@ def unique_key_gen():
     now = datetime.now()
     return now.strftime('%d%m%Y%H%M%S')
 
-path_dbf = 'XCORTE.DBF/XCORTE.DBF'  # Ruta relativa o absoluta
+path_dbf = 'mockDBF/PARTVTA.DBF'  # Ruta relativa o absoluta
 path_json = 'registros_'+unique_key_gen()+'.json'  # Ruta donde se guardará el archivo JSON
 
 try:
