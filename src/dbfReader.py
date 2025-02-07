@@ -15,7 +15,7 @@ def unique_key_gen():
     return now.strftime('%d%m%Y%H%M%S')
 
 path_dbf = 'mockDBF/PARTVTA.DBF'  # Ruta relativa o absoluta
-path_json = 'registros_'+unique_key_gen()+'.json'  # Ruta donde se guardará el archivo JSON
+path_json = 'records/registros_'+unique_key_gen()+'.json'  # Ruta donde se guardará el archivo JSON
 
 try:
     # Intenta abrir el archivo DBF
